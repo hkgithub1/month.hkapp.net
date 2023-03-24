@@ -54,12 +54,17 @@ const theme = createTheme({
       main: "#e6e6e6",
     },
 
+    brown: {
+      main: "#412200",
+    },
+
     background: {
       main: "#e6e6e6",
       secondary: "#262626",
       tertiary: "#404040",
       transparent: "#ffffff00",
       white: "#ffffff",
+      brown: "#412200",
     },
 
     text: {

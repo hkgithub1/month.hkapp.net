@@ -187,7 +187,7 @@ export default function HomePage() {
   const renderMainContent = () => {
     return (
       <Grid container bgcolor="background.main">
-        <Grid item xs={12} bgcolor="black.light" sx={{ p: 1 }}>
+        <Grid item xs={12} bgcolor="background.brown" sx={{ p: 1 }}>
           <Stack direction="row" spacing={2} alignItems="center">
             <Typography variant="h5" sx={{ color: "text.black" }}>
               This month in Marvel Comic History:
@@ -243,7 +243,7 @@ export default function HomePage() {
             sx={{ px: 2, py: 1, height: "100%" }}
           >
             {loading ? (
-              <CircularProgress color="black" />
+              <CircularProgress color="brown" />
             ) : (
               <DateImageTable results={results} />
             )}
