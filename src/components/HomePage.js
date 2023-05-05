@@ -117,7 +117,7 @@ export default function HomePage() {
     return (
       <Grid
         container
-        height={625}
+        height="100vh"
         sx={{ backgroundImage: `url(${background})`, backgroundSize: "auto" }}
       >
         <Grid item xs={12} sx={{ p: 1 }}>
@@ -186,13 +186,13 @@ export default function HomePage() {
 
   const renderMainContent = () => {
     return (
-      <Grid container bgcolor="background.main">
-        <Grid item xs={12} bgcolor="background.brown" sx={{ p: 1 }}>
+      <Grid container bgcolor="background.secondary">
+        <Grid item xs={12} bgcolor="background.lightblue" sx={{ p: 1 }}>
           <Stack direction="row" spacing={2} alignItems="center">
-            <Typography variant="h5" sx={{ color: "text.black" }}>
+            <Typography variant="h5">
               This month in Marvel Comic History:
             </Typography>
-            <Typography variant="h5" sx={{ color: "text.black" }}>
+            <Typography variant="h5">
               {months[new Date().getMonth()]}
             </Typography>
             <TextField
@@ -225,7 +225,7 @@ export default function HomePage() {
               Go
             </Button>
             <Button
-              color="white"
+              color="black"
               variant="text"
               onClick={randomButtonPressed}
               startIcon={<CasinoOutlinedIcon style={{ fontSize: 36 }} />}

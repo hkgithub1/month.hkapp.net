@@ -60,18 +60,19 @@ const theme = createTheme({
 
     background: {
       main: "#e6e6e6",
-      secondary: "#262626",
+      secondary: "#a6a6a6",
       tertiary: "#404040",
       transparent: "#ffffff00",
       white: "#ffffff",
-      brown: "#412200",
+      brown: "#331a00",
+      lightblue: "#80aaff",
     },
 
     text: {
       white: "#e6e6e6",
       black: "#000000",
       gray: "#bfbfbf",
-      darkgray: "#808080",
+      darkgray: "#404040",
     },
   },
 });
